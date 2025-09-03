@@ -1,0 +1,17 @@
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.deps.json
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.Services.AutoMapping.pdb
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.GCommon.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.Services.Common.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.GCommon.pdb
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\bin\Debug\net8.0\CinemaApp.Services.Common.pdb
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.csproj.AssemblyReference.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.AssemblyInfoInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.AssemblyInfo.cs
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaAp.01D5E735.Up2Date
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\refint\CinemaApp.Services.AutoMapping.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\CinemaApp.Services.AutoMapping.pdb
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.AutoMapping\obj\Debug\net8.0\ref\CinemaApp.Services.AutoMapping.dll
