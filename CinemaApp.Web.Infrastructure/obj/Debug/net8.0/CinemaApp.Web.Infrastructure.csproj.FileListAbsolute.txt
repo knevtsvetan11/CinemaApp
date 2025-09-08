@@ -13,3 +13,4 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.Infrastructur
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.Infrastructure\obj\Debug\net8.0\refint\CinemaApp.Web.Infrastructure.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.Infrastructure\obj\Debug\net8.0\CinemaApp.Web.Infrastructure.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.Infrastructure\obj\Debug\net8.0\ref\CinemaApp.Web.Infrastructure.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.Infrastructure\obj\Debug\net8.0\CinemaApp.Web.Infrastructure.sourcelink.json

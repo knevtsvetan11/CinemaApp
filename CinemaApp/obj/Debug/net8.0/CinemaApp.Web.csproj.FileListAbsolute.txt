@@ -313,3 +313,4 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp\obj\Debug\net8.0\
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.genruntimeconfig.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp\obj\Debug\net8.0\ref\CinemaApp.Web.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp\obj\Debug\net8.0\CinemaApp.Web.sourcelink.json

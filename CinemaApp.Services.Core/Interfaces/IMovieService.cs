@@ -15,8 +15,5 @@ public interface IMovieService
     Task <MovieEditViewModel> GetMovieEditModelAsync(string Id);
     Task<bool> EditModelAsync(MovieEditViewModel model);
     Task<DeleteMovieViewModel> SoftDeleteConfirmModelAsync(string Id);
-
     Task<bool> SoftDeleteAsync(string Id);
-
-
 }

@@ -168,3 +168,4 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.IntegrationTests\
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.IntegrationTests\obj\Debug\net8.0\CinemaApp.IntegrationTests.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.IntegrationTests\obj\Debug\net8.0\CinemaApp.IntegrationTests.genruntimeconfig.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.IntegrationTests\obj\Debug\net8.0\ref\CinemaApp.IntegrationTests.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.IntegrationTests\obj\Debug\net8.0\CinemaApp.IntegrationTests.sourcelink.json

@@ -21,3 +21,4 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\ob
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\refint\CinemaApp.Web.ViewModels.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\ref\CinemaApp.Web.ViewModels.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.sourcelink.json

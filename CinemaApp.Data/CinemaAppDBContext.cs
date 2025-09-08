@@ -14,11 +14,15 @@ public class CinemaAppDBContext : IdentityDbContext
 
     public virtual DbSet<Movie> Movies { get; set; } = null!;
 
+    public virtual DbSet<ApplicationUserMovie> ApplicationUserMovies { get; set; } = null!;
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.ApplyConfiguration(new MovieConfiguration());
+
+      modelBuilder.ApplyConfiguration(new ApplicationUserMovieConfiguration());
     }
 
 }

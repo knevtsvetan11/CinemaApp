@@ -10,7 +10,7 @@ namespace CinemaApp.Data.Repository;
 
 public interface IRepository<TEntity,TKey>
 {
- 
+    IQueryable<TEntity> GetAllAttached();
     Task<TEntity> GetByIdAsync(TKey id);
     Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
     Task<IEnumerable<TEntity>> GetAllAsync();

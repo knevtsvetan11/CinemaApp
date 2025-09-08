@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D77A74-05B7-4F4F-BB89-E20CBAB4780F}|CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp.web.viewmodels\\movie\\deletemovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D77A74-05B7-4F4F-BB89-E20CBAB4780F}|CinemaApp.Web.ViewModels\\CinemaApp.Web.ViewModels.csproj|solutionrelative:cinemaapp.web.viewmodels\\movie\\deletemovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\controllers\\watchlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp.data\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FCBAF-0C43-442A-8766-DED1901E84B0}|CinemaApp.Data\\CinemaApp.Data.csproj|solutionrelative:cinemaapp.data\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp.services.core\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|solutionrelative:cinemaapp.services.core\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp.services.core\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|solutionrelative:cinemaapp.services.core\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp\\views\\movie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17F82044-4AD7-4113-94C9-7E24C28D5F5D}|CinemaApp\\CinemaApp.Web.csproj|solutionrelative:cinemaapp\\views\\movie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|c:\\users\\cveta\\downloads\\cinemaweb-may-2025-skeleton\\cinemaapp.services.core\\watchlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0104AE5A-487F-4602-9EB1-32EDB014A0A0}|CinemaApp.Services.Core\\CinemaApp.Services.Core.csproj|solutionrelative:cinemaapp.services.core\\watchlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,101 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WatchlistController.cs",
+              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Controllers\\WatchlistController.cs",
+              "RelativeDocumentMoniker": "CinemaApp\\Controllers\\WatchlistController.cs",
+              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Controllers\\WatchlistController.cs",
+              "RelativeToolTip": "CinemaApp\\Controllers\\WatchlistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T08:27:23.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Data\\Repository\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Data\\Repository\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Data\\Repository\\BaseRepository.cs",
-              "RelativeToolTip": "CinemaApp.Data\\Repository\\BaseRepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAArwC4AAAAFAAAAAAAAAA==",
+              "Title": "WatchlistService.cs",
+              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\WatchlistService.cs",
+              "RelativeDocumentMoniker": "CinemaApp.Services.Core\\WatchlistService.cs",
+              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\WatchlistService.cs",
+              "RelativeToolTip": "CinemaApp.Services.Core\\WatchlistService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAtwDsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T12:47:24.618Z",
+              "WhenOpened": "2025-09-08T07:46:09.468Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMovieService.cs",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\Interfaces\\IMovieService.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Services.Core\\Interfaces\\IMovieService.cs",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\Interfaces\\IMovieService.cs",
-              "RelativeToolTip": "CinemaApp.Services.Core\\Interfaces\\IMovieService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:56:52.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteMovieViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\Movie\\DeleteMovieViewModel.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Web.ViewModels\\Movie\\DeleteMovieViewModel.cs",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Web.ViewModels\\Movie\\DeleteMovieViewModel.cs",
-              "RelativeToolTip": "CinemaApp.Web.ViewModels\\Movie\\DeleteMovieViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:54:17.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Views\\Movie\\Delete.cshtml",
-              "RelativeDocumentMoniker": "CinemaApp\\Views\\Movie\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Views\\Movie\\Delete.cshtml",
-              "RelativeToolTip": "CinemaApp\\Views\\Movie\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-02T11:52:10.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "CinemaApp\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "CinemaApp\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAYwFwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:27:32.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\MovieService.cs",
-              "RelativeDocumentMoniker": "CinemaApp.Services.Core\\MovieService.cs",
-              "ToolTip": "C:\\Users\\cveta\\Downloads\\CinemaWeb-May-2025-Skeleton\\CinemaApp.Services.Core\\MovieService.cs",
-              "RelativeToolTip": "CinemaApp.Services.Core\\MovieService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwJEAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T11:27:32.26Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

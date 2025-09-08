@@ -25,6 +25,7 @@ public abstract class BaseRepository<TEntity, TKey> : IRepository<TEntity, TKey>
     {
         this._dbSet.Add(item);
        await  this._dbContext.SaveChangesAsync();
+       
     }
 
     public async Task AddRangeAsync(TEntity[] items)
@@ -49,6 +50,11 @@ public abstract class BaseRepository<TEntity, TKey> : IRepository<TEntity, TKey>
     public async Task<IEnumerable<TEntity>> GetAllAsync()
     {
         return await this._dbSet.ToArrayAsync();
+    }
+
+    public IQueryable<TEntity> GetAllAttached()
+    {
+       return this._dbSet.AsQueryable();
     }
 
     public async Task<TEntity> GetByIdAsync(TKey id)
