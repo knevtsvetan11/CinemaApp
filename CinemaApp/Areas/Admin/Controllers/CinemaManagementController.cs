@@ -86,7 +86,7 @@ public class CinemaManagementController : BaseAdminController
         return RedirectToAction("Manage");
     }
 
-    [HttpPost] //// TO DO: create delete action!
+    [HttpPost]
     public async Task<IActionResult> ToggleDelete(string id) ///SoftDelete
     {
         if (String.IsNullOrWhiteSpace(id))
@@ -95,6 +95,15 @@ public class CinemaManagementController : BaseAdminController
             return RedirectToAction("Manage");
         }
 
-        return View();
+        bool isDeleteSuccesly = await this._cinemaManagementService.SoftDelete(id);
+        if (!isDeleteSuccesly)
+        {
+            TempData[ErrorMessage] = "Failed to delete Cinema.";
+            return RedirectToAction("Manage");
+
+        }
+
+        TempData[SuccessMessage] = "Cinema is succesly deleted.";
+        return RedirectToAction("Manage");
     }
 }

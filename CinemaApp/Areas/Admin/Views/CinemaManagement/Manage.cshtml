@@ -69,3 +69,44 @@
         </div>
     }
 </div>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        // Премахваме "Deleted!" съобщението от вътрешния Swal.fire.
+        // Функцията изпраща формата при потвърждение.
+        function confirmToggleDelete(cinemaId, action) {
+
+            // Настройки, които варират според действието (Delete/Restore)
+            const isDelete = action === 'delete';
+            const titleText = isDelete ? "Потвърди Изтриване?" : "Потвърди Възстановяване?";
+            const textContent = `Сигурни ли сте, че искате да ${isDelete ? "деактивирате (изтриете)" : "активирате (възстановите)"} това кино?`;
+            const confirmBtnText = isDelete ? "Да, ИЗТРИЙ!" : "Да, ВЪЗСТАНОВИ!";
+            const iconType = isDelete ? "warning" : "question";
+            const confirmColor = isDelete ? "#d33" : "#3085d6"; // Червено за Delete, Синьо за Restore
+
+            // Показване на SweetAlert2
+            Swal.fire({
+                title: titleText,
+                text: textContent,
+                icon: iconType,
+                showCancelButton: true,
+                confirmButtonColor: confirmColor,
+                cancelButtonColor: "#6c757d", // Сиво за Отказ
+                confirmButtonText: confirmBtnText,
+                cancelButtonText: "Отказ"
+            }).then((result) => {
+                // 1. Проверяваме дали потребителят е натиснал бутона "Потвърди"
+                if (result.isConfirmed) {
+
+                    // 2. Изпращане на формата (POST заявка)
+                    // Това извиква метода ToggleDelete във Вашия контролер
+                    document.getElementById(`toggleDeleteForm-${cinemaId}`).submit();
+
+                    // !!! Няма нужда от второ Swal.fire тук!
+                    // Контролерът ще презареди страницата и ще покаже резултата.
+                }
+            });
+        }
+    </script>
+}

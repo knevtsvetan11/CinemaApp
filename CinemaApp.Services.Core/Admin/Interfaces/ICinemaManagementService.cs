@@ -16,4 +16,6 @@ public  interface ICinemaManagementService
     Task<EditCinemaFormModel> GetCinemaByIdAsync(string id);
 
     Task<bool> EditCinemaAsync(EditCinemaFormModel inputModel);
+
+    Task<bool> SoftDelete(string id);
 }

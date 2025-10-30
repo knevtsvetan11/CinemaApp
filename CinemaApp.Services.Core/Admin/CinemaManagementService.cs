@@ -120,5 +120,20 @@ public class CinemaManagementService : ICinemaManagementService
         return false;
     }
 
+    public async Task<bool> SoftDelete(string id)
+    {
+        bool isDeleted = false;
+        Cinema exsistCinema = await this._cinemaRepository
+           .FirstOrDefaultAsync(c => c.Id.ToString().ToLower() == id.ToLower());
+        if( exsistCinema != null)
+        {
+            exsistCinema.IsDeleted = true;
+            await this._cinemaRepository.SaveChangesAsync();
+            isDeleted = true;
+        }
+        return isDeleted;
+
+
+    }
 
 }
