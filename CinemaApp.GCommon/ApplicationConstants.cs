@@ -31,6 +31,11 @@ public static class ApplicationConstants
         public const string MaxLengthError = "Field {0} must be max {1} symbols length.";
 
     }
+
+    public static class GlobalConstants
+    {
+
+    }
 }
 
 
