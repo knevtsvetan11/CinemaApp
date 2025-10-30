@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Manage Cinemas";
+}
+
+@* 1. Блок за УСПЕШНО СЪОБЩЕНИЕ (Зелен банер) *@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@* 2. Блок за СЪОБЩЕНИЕ ЗА ГРЕШКА (Червен банер) *@
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Error!</strong> @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h2>All Cinemas</h2>

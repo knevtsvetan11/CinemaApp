@@ -22,6 +22,71 @@ namespace CinemaApp.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CinemaApp.Data.Models.ApplicationUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
             modelBuilder.Entity("CinemaApp.Data.Models.ApplicationUserMovie", b =>
                 {
                     b.Property<string>("ApplicationUserId")
@@ -35,6 +100,169 @@ namespace CinemaApp.Data.Migrations
                     b.HasIndex("MovieId");
 
                     b.ToTable("ApplicationUserMovies");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Cinema", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<Guid?>("ManagerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("nvarchar(80)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ManagerId");
+
+                    b.ToTable("Cinemas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("30c8c49e-647d-4a5c-ba64-012263bd0ae5"),
+                            IsDeleted = false,
+                            Location = "Sofia",
+                            Name = "Cinema City"
+                        },
+                        new
+                        {
+                            Id = new Guid("7c7cc780-c803-47df-b307-e901be7b399c"),
+                            IsDeleted = false,
+                            Location = "Sofia",
+                            Name = "Arena The Mall"
+                        },
+                        new
+                        {
+                            Id = new Guid("f244c1c5-e25f-477d-aa01-703d994c6dd1"),
+                            IsDeleted = false,
+                            Location = "Plovdiv",
+                            Name = "Cine Grand Park Center"
+                        },
+                        new
+                        {
+                            Id = new Guid("ed1f1d71-1c10-4c83-8164-a8be57ee4715"),
+                            IsDeleted = false,
+                            Location = "Varna",
+                            Name = "Kino Odeon"
+                        },
+                        new
+                        {
+                            Id = new Guid("0a6b27df-a577-46bf-86ad-1f44562edd20"),
+                            IsDeleted = false,
+                            Location = "Burgas",
+                            Name = "Star Cinema"
+                        });
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.CinemaMovie", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("AvailableTickets")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
+                    b.Property<Guid>("CinemaId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<Guid>("MovieId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Showtime")
+                        .IsRequired()
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar(5)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CinemaId");
+
+                    b.HasIndex("MovieId");
+
+                    b.ToTable("CinemaMovies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("36c4aff9-5768-42b6-a428-4a8d70e2fae5"),
+                            AvailableTickets = 150,
+                            CinemaId = new Guid("30c8c49e-647d-4a5c-ba64-012263bd0ae5"),
+                            IsDeleted = false,
+                            MovieId = new Guid("ae50a5ab-9642-466f-b528-3cc61071bb4c"),
+                            Showtime = "18:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("f0ae490c-a577-49f2-9952-197b5fba0ffb"),
+                            AvailableTickets = 120,
+                            CinemaId = new Guid("30c8c49e-647d-4a5c-ba64-012263bd0ae5"),
+                            IsDeleted = false,
+                            MovieId = new Guid("777634e2-3bb6-4748-8e91-7a10b70c78ac"),
+                            Showtime = "21:00"
+                        },
+                        new
+                        {
+                            Id = new Guid("7d38ab07-7c5d-450b-9375-e85d42a41da4"),
+                            AvailableTickets = 180,
+                            CinemaId = new Guid("30c8c49e-647d-4a5c-ba64-012263bd0ae5"),
+                            IsDeleted = false,
+                            MovieId = new Guid("68fb84b9-ef2a-402f-b4fc-595006f5c275"),
+                            Showtime = "19:30"
+                        },
+                        new
+                        {
+                            Id = new Guid("609296a6-d936-46db-9584-148370d0a8f5"),
+                            AvailableTickets = 90,
+                            CinemaId = new Guid("30c8c49e-647d-4a5c-ba64-012263bd0ae5"),
+                            IsDeleted = false,
+                            MovieId = new Guid("02b52bb0-1c2b-49a4-ba66-6d33f81d38d1"),
+                            Showtime = "16:45"
+                        });
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Manager", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Managers");
                 });
 
             modelBuilder.Entity("CinemaApp.Data.Models.Movie", b =>
@@ -234,6 +462,32 @@ namespace CinemaApp.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("CinemaApp.Data.Models.Ticket", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CinemaMovieId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CinemaMovieId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Tickets");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -284,71 +538,6 @@ namespace CinemaApp.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetRoleClaims", (string)null);
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -438,8 +627,8 @@ namespace CinemaApp.Data.Migrations
 
             modelBuilder.Entity("CinemaApp.Data.Models.ApplicationUserMovie", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "ApplicationUser")
-                        .WithMany()
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany("WatchlistMovies")
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -455,6 +644,63 @@ namespace CinemaApp.Data.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("CinemaApp.Data.Models.Cinema", b =>
+                {
+                    b.HasOne("CinemaApp.Data.Models.Manager", "Manager")
+                        .WithMany("ManagedCinemas")
+                        .HasForeignKey("ManagerId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Manager");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.CinemaMovie", b =>
+                {
+                    b.HasOne("CinemaApp.Data.Models.Cinema", "Cinema")
+                        .WithMany("CinameMovies")
+                        .HasForeignKey("CinemaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CinemaApp.Data.Models.Movie", "Movie")
+                        .WithMany("MovieProjections")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cinema");
+
+                    b.Navigation("Movie");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Manager", b =>
+                {
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", "User")
+                        .WithOne("Manager")
+                        .HasForeignKey("CinemaApp.Data.Models.Manager", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Ticket", b =>
+                {
+                    b.HasOne("CinemaApp.Data.Models.CinemaMovie", "CinemaMovieProjection")
+                        .WithMany("Tickets")
+                        .HasForeignKey("CinemaMovieId");
+
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", "User")
+                        .WithMany("Tickets")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CinemaMovieProjection");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -466,7 +712,7 @@ namespace CinemaApp.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -475,7 +721,7 @@ namespace CinemaApp.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -490,7 +736,7 @@ namespace CinemaApp.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -499,15 +745,41 @@ namespace CinemaApp.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("CinemaApp.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("CinemaApp.Data.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Manager");
+
+                    b.Navigation("Tickets");
+
+                    b.Navigation("WatchlistMovies");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Cinema", b =>
+                {
+                    b.Navigation("CinameMovies");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.CinemaMovie", b =>
+                {
+                    b.Navigation("Tickets");
+                });
+
+            modelBuilder.Entity("CinemaApp.Data.Models.Manager", b =>
+                {
+                    b.Navigation("ManagedCinemas");
+                });
+
             modelBuilder.Entity("CinemaApp.Data.Models.Movie", b =>
                 {
+                    b.Navigation("MovieProjections");
+
                     b.Navigation("UserWatchlists");
                 });
 #pragma warning restore 612, 618

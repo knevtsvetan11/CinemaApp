@@ -5,8 +5,8 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.AssemblyInfoInputs.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.AssemblyInfo.cs
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.sourcelink.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\refint\CinemaApp.GCommon.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\ref\CinemaApp.GCommon.dll
-C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.GCommon\obj\Debug\net8.0\CinemaApp.GCommon.sourcelink.json

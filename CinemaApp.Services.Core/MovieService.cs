@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CinemaApp.Data;
 using CinemaApp.Data.Models;
-using CinemaApp.Data.Repository;
+using CinemaApp.Data.Repository.Interfaces;
 using CinemaApp.Services.Core.Interfaces;
 using CinemaApp.Web.ViewModels.Movie;
 using Microsoft.EntityFrameworkCore;

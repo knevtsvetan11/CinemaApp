@@ -20,7 +20,7 @@ public class ApplicationUserMovieConfiguration : IEntityTypeConfiguration<Applic
             .IsRequired();
 
         entity.HasOne(d => d.ApplicationUser)
-            .WithMany()
+            .WithMany(d => d.WatchlistMovies)
             .HasForeignKey(d => d.ApplicationUserId);
             
         entity.HasOne(aum => aum.Movie) 

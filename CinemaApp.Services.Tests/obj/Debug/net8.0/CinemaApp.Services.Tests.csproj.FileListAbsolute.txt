@@ -14,8 +14,13 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bi
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.Web.Providers.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -56,7 +61,9 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bi
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\NuGet.Frameworks.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\System.Memory.Data.dll
@@ -136,6 +143,11 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bi
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
@@ -162,10 +174,10 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\ob
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.AssemblyInfoInputs.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.AssemblyInfo.cs
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.sourcelink.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaAp.FB1D8A9E.Up2Date
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\refint\CinemaApp.Services.Tests.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.genruntimeconfig.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\ref\CinemaApp.Services.Tests.dll
-C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Tests\obj\Debug\net8.0\CinemaApp.Services.Tests.sourcelink.json

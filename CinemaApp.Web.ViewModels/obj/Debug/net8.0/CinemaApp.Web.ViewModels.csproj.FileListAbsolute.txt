@@ -16,9 +16,9 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\ob
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfoInputs.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.AssemblyInfo.cs
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.sourcelink.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaAp.B0FE653C.Up2Date
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\refint\CinemaApp.Web.ViewModels.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\ref\CinemaApp.Web.ViewModels.dll
-C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\obj\Debug\net8.0\CinemaApp.Web.ViewModels.sourcelink.json

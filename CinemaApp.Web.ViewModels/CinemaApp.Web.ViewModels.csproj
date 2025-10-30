@@ -12,4 +12,12 @@
     <ProjectReference Include="..\CinemaApp.Services.AutoMapping\CinemaApp.Services.AutoMapping.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Web.ViewModels\.editorconfig" />
+  </ItemGroup>
+
 </Project>

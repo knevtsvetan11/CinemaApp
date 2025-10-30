@@ -10,10 +10,10 @@ namespace CinemaApp.Data.Models;
 
 public  class ApplicationUserMovie
 {
-    
+
     public string ApplicationUserId { get; set; } = null!;
 
-    public virtual IdentityUser ApplicationUser { get; set; } = null!;
+    public virtual ApplicationUser ApplicationUser { get; set; } = null!;
 
     public Guid MovieId { get; set; }
 

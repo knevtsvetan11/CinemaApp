@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CinemaApp.Data;
 using CinemaApp.Data.Models;
-using CinemaApp.Data.Repository;
+using CinemaApp.Data.Repository.Interfaces;
 using CinemaApp.Services.Core.Interfaces;
 using CinemaApp.Web.ViewModels.Watchlist;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +28,7 @@ public class WatchlistService : IWatchlistService
 
         bool exists = await _watchlistRepository
             .GetAllAttached()
-            .AnyAsync(u => u.ApplicationUserId == userId && u.MovieId == movieGuid);
+            .AnyAsync(u => u.ApplicationUserId.ToString().ToLower() == userId && u.MovieId == movieGuid);
 
         if (exists)
         {
@@ -48,7 +48,7 @@ public class WatchlistService : IWatchlistService
     public async Task<IEnumerable<WatchlistViewModel>> GetUserWatchlistAsync(string userId)
     {
         return await _watchlistRepository.GetAllAttached()
-            .Where(um => um.ApplicationUserId == userId)
+            .Where(um => um.ApplicationUserId.ToString().ToLower() == userId)
             .Select(um => new WatchlistViewModel
             {
                 MovieId = um.Movie.Id.ToString(),
@@ -66,7 +66,7 @@ public class WatchlistService : IWatchlistService
             return false;
 
         var exist = await _watchlistRepository.GetAllAttached()
-            .FirstOrDefaultAsync(x => x.ApplicationUserId == userId && x.MovieId == movieGuid);
+            .FirstOrDefaultAsync(x => x.ApplicationUserId.ToString().ToLower() == userId && x.MovieId == movieGuid);
 
         if (exist == null)
             return false;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CinemaApp.Data.Models;
+using CinemaApp.Data.Repository.Interfaces;
 
 namespace CinemaApp.Data.Repository;
 

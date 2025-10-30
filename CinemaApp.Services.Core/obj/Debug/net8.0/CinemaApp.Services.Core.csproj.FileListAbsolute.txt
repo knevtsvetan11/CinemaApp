@@ -1,4 +1,5 @@
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\bin\Debug\net8.0\CinemaApp.Services.Core.deps.json
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\bin\Debug\net8.0\CinemaApp.Services.Core.runtimeconfig.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\bin\Debug\net8.0\CinemaApp.Services.Core.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\bin\Debug\net8.0\CinemaApp.Services.Core.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\bin\Debug\net8.0\CinemaApp.Data.Common.dll
@@ -20,9 +21,10 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.AssemblyInfoInputs.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.AssemblyInfo.cs
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.sourcelink.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaAp.2C3DEBF0.Up2Date
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\refint\CinemaApp.Services.Core.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.pdb
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.genruntimeconfig.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\ref\CinemaApp.Services.Core.dll
-C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Services.Core\obj\Debug\net8.0\CinemaApp.Services.Core.sourcelink.json

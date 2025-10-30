@@ -13,7 +13,7 @@ namespace CinemaApp.Data.Models
     {
         [Comment("Movie Identifier")]
         [Key]
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
 
         [Comment("Movie Title")]
         [Required(ErrorMessage = "Title is required.")]
@@ -45,5 +45,8 @@ namespace CinemaApp.Data.Models
 
         public virtual  ICollection<ApplicationUserMovie> UserWatchlists { get; set; } = 
               new HashSet<ApplicationUserMovie>();
+
+        public virtual ICollection<CinemaMovie> MovieProjections { get; set; } = 
+            new HashSet<CinemaMovie>();
     }
 }

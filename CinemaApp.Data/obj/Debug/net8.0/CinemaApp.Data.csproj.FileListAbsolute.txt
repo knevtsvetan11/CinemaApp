@@ -13,10 +13,10 @@ C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\ne
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.AssemblyInfoInputs.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.AssemblyInfo.cs
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.sourcelink.json
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaAp.EF772C1E.Up2Date
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\refint\CinemaApp.Data.dll
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.pdb
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.genruntimeconfig.cache
 C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\ref\CinemaApp.Data.dll
-C:\Users\cveta\Downloads\CinemaWeb-May-2025-Skeleton\CinemaApp.Data\obj\Debug\net8.0\CinemaApp.Data.sourcelink.json
