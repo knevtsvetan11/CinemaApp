@@ -34,7 +34,7 @@ public static class ApplicationConstants
 
     public static class GlobalConstants
     {
-
+        public const string ErrorField = "Error fatal";
     }
 }
 
